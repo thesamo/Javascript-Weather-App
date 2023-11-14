@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+    <div class="header">
+      <input type="text" placeholder="enter a city name" />
+      <select name="" id="temp">
+        <option value="metric" selected>°C</option>
+        <option value="imperial">°F</option>
+      </select>
+      <select name="" id="lang">
+        <option value="EN" selected>EN</option>
+        <option value="AZ">AZ</option>
+        <option value="TR">TR</option>
+        <option value="RU">RU</option>
+      </select>
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+      <div class="footer">
+        <h1></h1>
+        <span></span>
+        <img
+          class="image"
+          src="/img/weather.png"
+          alt=""
+          width="200px;"
+          height="200px;"
+        />
+        <div class="desc"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
